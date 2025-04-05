@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Experience", link: "#experience" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -72,68 +72,83 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "Live Docs",
+    des: "Live Docs is a web app for real-time document editing and collaboration.",
+    img: "/project1.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/next.svg"],
+    link: "https://live-docs-alpha-mauve.vercel.app/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
-  },
-  {
-    id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
-  },
-  {
-    id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "See all my projects",
+    des: "Explore more on my GitHub!",
+    img: "/github-banner.png",
+    iconLists: [],
+    link: "https://github.com/syamsaalhadi",
+    isCTA: true,
   },
 ];
 
 export const testimonials = [
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    // quote: "Belajar dasar AI.",
+    // name: "Dicoding Indonesia",
+    // title: "Sertifikat: Belajar Dasar AI.",
+    img: "/certificates/sertif1.png",
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    // quote: "Belajar Dasar Data Science.",
+    // name: "Dicoding Indonesia",
+    // title: "Sertifikat: Data Science",
+    img: "/certificates/sertif2.jpeg",
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    // quote: "Belajar Dasar Structured Query Language(SQL).",
+    // name: "Dicoding Indonesia",
+    // title: "Sertifikat: SQL",
+    img: "/certificates/sertif3.jpeg",
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    // quote: "Belajar Dasar Visualisasi Data.",
+    // name: "Dicoding Indonesia",
+    // title: "Sertifikat: Data Science",
+    img: "/certificates/sertif4.jpeg",
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    // quote: "Master Python With NumPy For Data Science & Machine Learning.",
+    // name: "Udemy",
+    // title: "Sertifikat: Data Science",
+    img: "/certificates/sertif5.jpeg",
+  },
+  {
+    // quote: "Belajar Dasar Data Science.",
+    // name: "Dicoding Indonesia",
+    // title: "Sertifikat: Data Science",
+    img: "/certificates/sertif6.jpeg",
+  },
+  {
+    // quote: "Belajar Dasar Data Science.",
+    // name: "Dicoding Indonesia",
+    // title: "Sertifikat: Data Science",
+    img: "/certificates/sertif7.jpeg",
+  },
+  {
+    // quote: "Belajar Dasar Data Science.",
+    // name: "Dicoding Indonesia",
+    // title: "Sertifikat: Data Science",
+    img: "/certificates/sertif8.jpeg",
+  },
+  {
+    // quote: "Belajar Dasar Data Science.",
+    // name: "Dicoding Indonesia",
+    // title: "Sertifikat: Data Science",
+    img: "/certificates/sertif9.jpeg",
+  },
+  {
+    // quote: "Belajar Dasar Data Science.",
+    // name: "Dicoding Indonesia",
+    // title: "Sertifikat: Data Science",
+    img: "/certificates/sertif10.jpeg",
   },
 ];
 
@@ -180,22 +195,22 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "computer technician",
+    desc: "become a computer technician during vocational school.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Freelance Web Dev Project",
+    desc: "freelance website builder on upwork.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "PHP and MySql Developer",
+    desc: "learn php and mysql developer in a company.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -203,14 +218,17 @@ export const workExperience = [
 
 export const socialMedia = [
   {
+    link: "https://github.com/syamsaalhadi",
     id: 1,
     img: "/git.svg",
   },
   {
+    link: "https://www.tiktok.com/@gearifycode",
     id: 2,
-    img: "/twit.svg",
+    img: "/tiktok.svg",
   },
   {
+    link: "https://www.linkedin.com/in/syamsa-al-hadi-009408267/",
     id: 3,
     img: "/link.svg",
   },
